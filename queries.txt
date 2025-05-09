@@ -137,8 +137,8 @@ ecommerce;> db.orders.find({ total_amount: { $gte: 15000 } }).pretty();
     total_amount: 20000,
     order_status: 'delivered'
   }
-]
-ecommerce;> db.orders.find().pretty();
+   ]
+    ecommerce;> db.orders.find().pretty();
 ... 
 [
   {
